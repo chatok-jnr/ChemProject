@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.start {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(52, 169, 97);
+}
+
+.fstButton {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(52, 169, 97);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.createAccount {
+    position: absolute;
+    text-align: center;
+}
+
+.one {
+    display: none;
+}
+
+.security {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.input {
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(52, 169, 97);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.gtreasure {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.gpmember {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.TotalTreasure {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.myTreasure {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.iTreasure {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.iTreasureDisplay {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.useMoney {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.userTreasure {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.addMoney {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.gmregister {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.login {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+.user {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+h1 {
+    color: white;
+}
