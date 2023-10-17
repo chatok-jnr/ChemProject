@@ -252,7 +252,7 @@ function check() {
     } else dgt32.innerHTML = Treasure[idit];
 }
 
-const idno3 = document.getElementById('idno3');
+let idno3 = document.getElementById('idno3');
 const use1 = document.getElementById('use1');
 const insuf = document.getElementById('failed');
 const umDone = document.getElementById('umDone');
@@ -302,8 +302,8 @@ function usefun() {
             insuf.style.display = 'none';
             umDone.style.display = 'block';
             totalTreasure1 = totalTreasure1 - (amnt * (i + 1));
-            for (let i = 0; i < Treasure.length; i++) {
-                Treasure[i] = Treasure[i] - amnt;
+            for (let j = 0; j < Treasure.length; j++) {
+                Treasure[j] = Treasure[j] - amnt;
             }
         }
     }

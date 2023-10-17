@@ -9,13 +9,8 @@
 </head>
 
 <body>
-
-
-
     <div class="container"><!--container-->
-
         <div class="start" id="start">
-
         </div><!--start-->
 
         <div class="fstButton" id="fstButton">
@@ -29,17 +24,19 @@
             <br>
             <input class="input" id="password1" type="password" placeholder="Password">
             <br>
-            <button class="btn" id="secure" onclick="done1()">Register</button>
+            <button class="btn" style="color: #00917C; background-color: rgb(14, 14, 14);" id="secure"
+                onclick="done1()">Register</button>
 
             <h1 style="display: none;" id="display1"></h1>
-            <button class="btn" style="display: none;" onclick="start1()" id="done1">Done</button>
+            <button class="btn" style="display: none; background-color:  #5AA897; color: black;" onclick="start1()"
+                id="done1">Done</button>
         </div><!--create account-->
 
 
         <div class="security" id="sec"><!--security-->
             <input class="input" id="password2" type="password" placeholder="Password">
             <br>
-            <button class="btn" id="secure" onclick="passing()">OK</button>
+            <button class="btn" style="color: rgb(7, 244, 54);" id="secure" onclick="passing()">OK</button>
         </div><!--security-->
 
 
@@ -54,20 +51,23 @@
             <br>
             <button class="btn" id="gt4" onclick="useMoney()">Use Money</button>
             <br>
-            <button class="btn" id="gt5" onclick="start1()">Return back</button>
+            <button class="btn" id="gt5" style="background-color: #213555; color: #F0F0F0;" onclick="start1()">Return
+                back</button>
         </div><!--group treasure-->
 
 
         <div class="TotalTreasure" id="tt"><!--total treasure-->
             <h1 id="showindx0"></h1>
             <br>
-            <button class="btn" id="totalTreasureback" onclick="groupTreasure()">Return back</button>
+            <button class="btn" id="totalTreasureback" style="background-color: #213555; color: #F0F0F0;"
+                onclick="groupTreasure()">Return back</button>
         </div>
 
         <div class="myTreasure" id="mt">
             <h1 id="gt20"></h1>
             <br>
-            <button class="btn" id="mtbtn1" onclick="groupTreasure()">Return back</button>
+            <button class="btn" id="mtbtn1" style="background-color: #213555; color: #F0F0F0;"
+                onclick="groupTreasure()">Return back</button>
         </div>
 
         <div class="iTreasure" id="it">
@@ -75,11 +75,13 @@
             <br>
             <button class="btn" id="gt30" onclick="check()">Check</button>
             <br>
-            <button class="btn" id="gt31" onclick="groupTreasure()">Return back</button>
+            <button class="btn" id="gt31" style="background-color: #213555; color: #F0F0F0;"
+                onclick="groupTreasure()">Return back</button>
             <br>
             <h1 id="dgt32"></h1>
             <br>
-            <button class="btn" id="gt33" style="display: none;" onclick="individualTreasure()">Return Back</button>
+            <button class="btn" id="gt33" style="display: none; background-color: #213555; color: #F0F0F0;"
+                onclick="individualTreasure()">Return Back</button>
         </div>
 
         <div class="useMoney" id="um">
@@ -87,22 +89,24 @@
             <br>
             <button class="btn" id="use1" onclick="usefun()">Use treasure</button>
             <br>
-            <button class="btn" onclick="groupTreasure()" id="umrtb">Return back</button>
-            <button class="btn" id="failed" onclick="useMoney()">Insufficient balance</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="groupTreasure()"
+                id="umrtb">Return back</button>
+            <button class="btn" style="color: red; width: 300px;" id="failed" onclick="useMoney()">Insufficient
+                balance</button>
             <br>
-            <button class="btn" id="umDone" onclick="groupTreasure()">Done</button>
+            <button class="btn" style="background-color:  #5AA897; color: black;" id="umDone"
+                onclick="groupTreasure()">Done</button>
         </div>
-
-
-
 
         <div class="gpmember" id="gm">
             <button class="btn" id="ca" onclick="gmreg1()">Create Account</button>
             <br>
             <button class="btn" id="aha" onclick="gmlog()">Already have Account</button>
             <br>
-            <button class="btn" onclick="start1()">Return back</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="start1()">Return
+                back</button>
         </div><!--group member-->
+
 
 
 
@@ -111,12 +115,13 @@
             <br>
             <input class="input" type="password" id="gmpassword" placeholder="Password">;
             <br>
-            <button class="btn" onclick="newReg()" id="gmregis">Register</button>
+            <button class="btn" style="color: #00917C; background-color: rgb(14, 14, 14);" onclick="newReg()"
+                id="gmregis">Register</button>
             <br>
-            <h1 id="gmidno">Your id is = </h1>
-            <h1 id="gmidno"></h1>
+            <h1 style="color: #005B41;" id="gmidno"></h1>
             <br>
-            <button class="btn" onclick="groupMember()" id="gmback">Return Back</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="groupMember()"
+                id="gmback">Return Back</button>
         </div>
 
 
@@ -126,34 +131,40 @@
             <br>
             <input class="input" type="password" id="gmlpass" placeholder="Password">
             <br>
-            <button class="btn" onclick="logcheck()" id="log">Login</button>
-            <button class="btn" onclick="gmlog()" id="result">Wrong Password or ID no</button>
-            <button class="btn" onclick="groupMember()" id="gmback2">Return Back</button>
+            <button class="btn" style="color: #00FFF5;" onclick="logcheck()" id="log">Login</button>
+            <button class="btn" style="color: red; width: 350px;" onclick="gmlog()" id="result">Wrong Password or
+                ID</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="groupMember()"
+                id="gmback2">Return Back</button>
         </div>
 
         <div class="user" id="user">
             <button class="btn" onclick="userT()" id="usermt">My Treasure</button>
             <br>
-            <button class="btn" onclick="addMoney()" id="addmoney">Add money</button>
+            <button class="btn" style="background-color: #E9B0DF; color: white;" onclick="addMoney()" id="addmoney">Add
+                money</button>
             <br>
-            <button class="btn" id="rtnb" onclick="gmlog()">Return back</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" id="rtnb" onclick="gmlog()">Return
+                back</button>
         </div>
 
 
         <div class="userTreasure" id="ut">
             <h1 id="userTreasure"></h1>
             <br>
-            <button class="btn" onclick="user1()" id="usbtn1">Return back</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="user1()" id="usbtn1">Return
+                back</button>
         </div>
-
 
         <div class="addMoney" id="am">
             <input class="input" id="idno4" type="text" placeholder="Amount">
             <br>
             <button class="btn" onclick="addmoneyDone()" id="adm">Add</button>
             <br>
-            <button class="btn" onclick="user1()" id="rbl">Return back</button>
-            <button class="btn" onclick="user1()" id="last">Done</button>
+            <button class="btn" style="background-color: #213555; color: #F0F0F0;" onclick="user1()" id="rbl">Return
+                back</button>
+            <button class="btn" style="background-color: #5AA897; color: black;" onclick="user1()"
+                id="last">Done</button>
         </div>
 
 
@@ -162,6 +173,8 @@
 
 
     <script src="script.js"></script>
+
+
 </body>
 
 </html>

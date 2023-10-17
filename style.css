@@ -1,22 +1,40 @@
 body {
-    background-color: black;
-}
-
-.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background: url(2.jpg) no-repeat;
+    /*background-size: cover;*/
+
+}
+
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363B4E;
     height: 100%;
+
+    background: rgba(1, 1, 1, 0.44);
+
+    width: 700px;
+    height: 500px;
+
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
 }
 
 .start {
-    height: 400px;
-    width: 600px;
+    height: 500px;
+    width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(52, 169, 97);
+    border: 2px solid #0A81AB;
+    border-radius: 50px;
+
+
 }
 
 .fstButton {
@@ -30,8 +48,8 @@ body {
     width: 200px;
     font-size: 25px;
     color: white;
-    background-color: black;
-    border: 2px solid rgb(52, 169, 97);
+    background-color: #8267BE;
+    border: 3px solid #0A81AB;
     border-radius: 15px;
     margin: 10px;
 }
@@ -55,9 +73,9 @@ body {
     height: 60px;
     width: 200px;
     font-size: 25px;
-    color: white;
+    color: #0A81AB;
     background-color: black;
-    border: 2px solid rgb(52, 169, 97);
+    border: 3px solid #0A81AB;
     border-radius: 15px;
     margin: 10px;
 }
@@ -135,5 +153,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 161, 198);
+    background-color: #363B4E;
+    font-size: 40px;
 }
